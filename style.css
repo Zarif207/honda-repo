@@ -17,11 +17,12 @@ body {
 
 .logo {
   height: 50px;
-  width: auto;
+  width: 100%;
   z-index: 1000;
   top: 0;
   position: fixed;
   padding-top: 10px;
+  background-color: #ffffff;
 }
 
 #img1 {
@@ -33,12 +34,13 @@ body {
 
 #f1 {
     text-align: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: 2rem;
-    margin-top: 20px;
+    margin-top: 0px;
     word-spacing: 10px;
     color: #333;
-    padding-top: 60px;
+    padding-top: 100px;
+    padding-bottom: 30px;
 }
 
 /* 1st part */
@@ -47,7 +49,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 120px;
-  padding: 60px 40px;
+  padding: 0px 0px 60px 0px;
   background-color: #fff;
   flex-wrap: wrap;
 }
@@ -142,4 +144,523 @@ body {
   opacity: 0.7;
 }
 
-/* honda */
+
+/* video section */
+
+.video-with-text {
+  display: flex;
+  flex-wrap: wrap; /* Stacks nicely on small screens */
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  padding: 100px;
+  background-color: #f5f5f5;
+}
+
+.video-box {
+  flex: 500px; /* Minimum width = 500px, grows with space */
+  max-width: 600px;
+  height: 340px;   /* <<< Change this to increase/decrease video height */
+}
+
+.video-box iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.text-box {
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
+.text-box h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.text-box p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+
+      
+
+                    /* 3rd part */
+#f3 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-top: 0px;
+    word-spacing: 3px;
+    color: #333;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+
+.section {
+  padding: 40px 60px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: #222;
+  text-align: center;
+}
+
+
+/* SUV Cards */
+
+.suv-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.suv {
+  width: 30%;
+  background: #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.suv:hover {
+  transform: translateY(-5px);
+}
+
+.suv img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.suv h3 {
+  font-size: 18px;
+  margin: 15px 0 10px;
+}
+
+.suv button {
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  background-color: #0057b8;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.suv button:hover {
+  background-color: #003d80;
+}
+
+/* Sedan Cards */
+.sedan-group {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.sedan {
+  width: 31%;
+  background: #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.sedan:hover {
+  transform: translateY(-5px);
+}
+
+.sedan img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.sedan h3 {
+  font-size: 18px;
+  margin: 15px 0 10px;
+}
+
+.sedan button {
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  background-color: #0057b8;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.sedan button:hover {
+  background-color: #003d80;
+}
+
+
+
+/* 4th part */
+
+.luxury-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  padding-bottom: 60px;
+  background-color: #1e1d1d;
+}
+
+#f2 {
+  text-align: center;
+  font-family:cursive;
+  font-size: 45px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  word-spacing: 10px;
+  color: #ffffff;
+  padding-top: 100px;
+}
+
+
+.luxury-logos {
+  text-align: center;
+  margin: 0px;
+}
+
+.main-logo {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  padding-bottom: 100px;
+}
+
+.info-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  gap: 40px;
+  background-color: white;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.text-content h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.text-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.image-content {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.image-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* 5th part */
+
+.f4 {
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 2rem;
+  margin-top: 0px;
+  word-spacing: 3px;
+  color: #333;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.acura-way {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #000000;
+  height: 100%;
+}
+
+.acura-way h2 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.subtitle {
+  max-width: 800px;
+  margin: 0 auto 60px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.acura-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.acura-card {
+  width: 30%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.acura-card:hover {
+  transform: translateY(-5px);
+}
+
+.acura-card h3 {
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.acura-card p {
+  font-size: 14px;
+  font-family:cursive;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  color: #9d9d9d;
+}
+
+.acura-card a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s;
+}
+
+.acura-card a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+/* .6th part */
+
+.video-section {
+  width: 100%;
+  height: 100vh; /* Full screen height */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  align-items: center;
+}
+
+/* 6th part */
+
+.formula-1 {
+  padding: 60px 30px;
+  background-color: #f7f7f7;
+  font-family: sans-serif;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 50px;
+}
+
+.section-heading h1 {
+  font-size: 32px;
+  color: #c40000; /* Formula 1 red */
+  margin-bottom: 10px;
+}
+
+.section-heading p {
+  font-size: 18px;
+  color: #444;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.formula-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+}
+
+.formula-text {
+  flex: 1 1 400px;
+  max-width: 500px;
+}
+
+.formula-text h2 {
+  font-size: 26px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.formula-text p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.formula-image {
+  flex: 1 1 400px;
+  max-width: 500px;
+}
+
+.formula-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 7th part */
+
+
+
+
+
+
+/* F1 Banner Section */
+.f1-banner {
+  background-color: #ffffff;
+  color: #000000;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.f1-banner h1 {
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Arial Black', sans-serif;
+  background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .f1-banner h1 {
+    font-size: 36px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.f1-drivers {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.drivers-heading {
+  font-size: 32px;
+  color: #d50000; /* Gold accent */
+  margin-bottom: 100px;
+}
+
+.drivers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+}
+
+.driver-card {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  
+}
+
+
+
+.driver-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.driver-card h2 {
+  font-size: 22px;
+  color: #00aaff;
+  margin-bottom: 10px;
+}
+
+.driver-card p {
+  font-size: 16px;
+  color: #ddd;
+  line-height: 1.5;
+}
+
